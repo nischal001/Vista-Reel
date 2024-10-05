@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "278450859727",
+    "project_id": "reelsapp-5239d",
+    "storage_bucket": "reelsapp-5239d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278450859727:android:7c9d07036ed4178b5b91ba",
+        "android_client_info": {
+          "package_name": "com.example.reelsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgeobW9mmwJGOhlgFVA1XpOo3sysfUEv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
