@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:reelsapp/providers/ReelsProvider.dart';
 import 'package:reelsapp/providers/UserProvider.dart';
+import 'package:reelsapp/screens/Auth/LoginPage.dart';
 import 'package:reelsapp/screens/Auth/Welcome.dart';
 import 'package:reelsapp/screens/CustomMediaPicker.dart';
 import 'package:reelsapp/screens/Homepage.dart';
 import 'package:reelsapp/screens/ImageMerger.dart';
 import 'package:reelsapp/screens/OnboardingScreen.dart';
-import 'package:reelsapp/screens/VideoMaker.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: MediaMerger(),
+        home: Homepage(),
       ),
     );
   }

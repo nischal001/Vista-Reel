@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:pinput/pinput.dart';
 import 'package:provider/provider.dart';
 import 'package:reelsapp/providers/UserProvider.dart';
+import 'package:reelsapp/screens/Homepage.dart';
 
 class OTPVerificationPage extends StatefulWidget {
   String phonenumber;
@@ -69,6 +70,8 @@ class _OTPVerificationPageState extends State<OTPVerificationPage> {
                     phoneNumber: widget.phonenumber,
                   );
                   print('Done');
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Homepage()));
                   // AppUtil()
                   //     .showSuccessDialog(context, 'User verified successfully');
                 } catch (e) {

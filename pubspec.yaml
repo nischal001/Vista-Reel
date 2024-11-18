@@ -51,6 +51,9 @@ dependencies:
   permission_handler: ^10.2.0
   video_player:
   photo_manager: ^3.3.0
+  video_thumbnail: 0.5.3
+  flutter_exif_rotation:
+  exif: ^3.3.0
 
 dev_dependencies:
   flutter_test:
