@@ -167,54 +167,54 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.only(
-                    top: 16.0,
-                    left: 16.0,
-                    right: 16.0,
-                  ),
-                  child: Container(
-                    height: 50,
-                    width: MediaQuery.of(context).size.width / 1.5,
-                    decoration: BoxDecoration(
-                      color: Colors.grey.shade300,
-                      borderRadius: BorderRadius.circular(12),
-                    ),
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 16.0,
-                        vertical: 2.0,
-                      ),
-                      child: TextFormField(
-                        obscureText: _isShow,
-                        controller: passwordController,
-                        style: GoogleFonts.inter(
-                          color: Theme.of(context).colorScheme.secondary,
-                          fontSize: 16,
-                          fontWeight: FontWeight.w600,
-                        ),
-                        decoration: InputDecoration(
-                          suffixIcon: IconButton(
-                            onPressed: () {
-                              setState(() {
-                                _isShow = !_isShow;
-                              });
-                            },
-                            icon: Icon(
-                              _isShow ? Icons.visibility : Icons.visibility_off,
-                            ),
-                          ),
-                          floatingLabelBehavior: FloatingLabelBehavior.never,
-                          hintText: 'Password',
-                          hintStyle: TextStyle(
-                            color: Theme.of(context).colorScheme.secondary,
-                          ),
-                          border: InputBorder.none,
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
+                // Padding(
+                //   padding: const EdgeInsets.only(
+                //     top: 16.0,
+                //     left: 16.0,
+                //     right: 16.0,
+                //   ),
+                //   child: Container(
+                //     height: 50,
+                //     width: MediaQuery.of(context).size.width / 1.5,
+                //     decoration: BoxDecoration(
+                //       color: Colors.grey.shade300,
+                //       borderRadius: BorderRadius.circular(12),
+                //     ),
+                //     child: Padding(
+                //       padding: const EdgeInsets.symmetric(
+                //         horizontal: 16.0,
+                //         vertical: 2.0,
+                //       ),
+                //       child: TextFormField(
+                //         obscureText: _isShow,
+                //         controller: passwordController,
+                //         style: GoogleFonts.inter(
+                //           color: Theme.of(context).colorScheme.secondary,
+                //           fontSize: 16,
+                //           fontWeight: FontWeight.w600,
+                //         ),
+                //         decoration: InputDecoration(
+                //           suffixIcon: IconButton(
+                //             onPressed: () {
+                //               setState(() {
+                //                 _isShow = !_isShow;
+                //               });
+                //             },
+                //             icon: Icon(
+                //               _isShow ? Icons.visibility : Icons.visibility_off,
+                //             ),
+                //           ),
+                //           floatingLabelBehavior: FloatingLabelBehavior.never,
+                //           hintText: 'Password',
+                //           hintStyle: TextStyle(
+                //             color: Theme.of(context).colorScheme.secondary,
+                //           ),
+                //           border: InputBorder.none,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
                 Padding(
                   padding: const EdgeInsets.all(16.0),
                   child: Align(
